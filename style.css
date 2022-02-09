@@ -1,15 +1,26 @@
+:root{
+    --bs-yellow: #fca311;
+}
 .title-font{
     font-family: 'Quintessential', cursive;
 }
 .p-font{
     font-family: 'Signika Negative', sans-serif;
 }
-:root{
-    --bs-yellow2: #fca311;
+.header-font{
+    font-family: 'Signika Negative', sans-serif;
+    color: #fca311;
 }
 .navbar-toggler-icon{
     background-color: #fca311;
     border-radius: 7%;
 }
 .index-kep{
-    width: 200px;}
+    width: 160px;
+    height: 140px;
+    background-color: var(--bs-yellow);
+}
+.quote{
+    background-color: #fca311;
+    color: black;
+}
