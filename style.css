@@ -1,5 +1,6 @@
 :root{
     --bs-yellow: #fca311;
+    --bs-blackish: #14213d;
 }
 .title-font{
     font-family: 'Quintessential', cursive;
@@ -9,7 +10,8 @@
 }
 .header-font{
     font-family: 'Signika Negative', sans-serif;
-    color: #fca311;
+    color: white;
+    letter-spacing: 1rem;
 }
 .navbar-toggler-icon{
     background-color: #fca311;
@@ -23,4 +25,39 @@
 .quote{
     background-color: #fca311;
     color: black;
+}
+.bs-bug{
+    margin-top: 6rem;
+    margin-bottom: 1.5rem;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("images/text-right.svg");
+    border: none;
+}
+.btn-close{
+    background-image: url("images/x-lg.svg");
+    background-color: #fca311;
+}
+.btn-close:hover{
+    border-radius: 100%;
+    transition: 0.5s;
+}
+.btn-close:not(hover){
+    border-radius: none;
+    transition: 0.5s;
+}
+.offcanvas-body{
+    background-color: #fca311;
+}
+.dropdown-menu{
+    background-color: var(--bs-blackish);
+}
+.dropdown-item{
+    color: #fca311;
+}
+.dropdown-item:hover{
+    background-color: #fca311;
+    color: #14213d;
+    font-weight: bold;
+    transition: 0.3s;
 }
