@@ -73,8 +73,16 @@ body{
     position: fixed;
     right: 2rem;
     bottom: 2rem;
+    opacity: 60%;
     border-radius: 100%;
     background: #fca311c6;
     cursor: pointer;
-    transition: opacity 0.5s;
   }
+.back-to-top:hover{
+    opacity: 100%;
+    transition: 0.5s;
+}
+.back-to-top:not(hover){
+    opacity: 60%;
+    transition: 0.5s;
+}
