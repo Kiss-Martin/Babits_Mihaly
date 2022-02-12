@@ -4,6 +4,7 @@
 }
 body{
     background-image: url("images/bg.jpg");
+    height: 5000px;
 }
 .title-font{
     font-family: 'Quintessential', cursive;
@@ -68,3 +69,12 @@ body{
     font-weight: bold;
     transition: 0.3s;
 }
+.back-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    border-radius: 100%;
+    background: #fca311c6;
+    cursor: pointer;
+    transition: opacity 0.5s;
+  }
