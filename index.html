@@ -28,53 +28,55 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active p-font fw-bold fs-3" aria-current="page" href="#">Kezdőlap</a>
+                  <a class="nav-link active p-font fw-bold fs-3" aria-current="page" href="#kezdolap">Kezdőlap</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link hover hover-2 p-font fw-bold fs-3" aria-current="page" href="#elete">Élete</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link  p-font fw-bold fs-3" aria-current="page" href="#">Költészete</a>
+                  <a class="nav-link  p-font fw-bold fs-3" aria-current="page" href="#kolteszete">Költészete</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link p-font fw-bold fs-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link p-font fw-bold fs-3" href="#muvei" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Művei
                     <i class="bi bi-arrow-down"></i>
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#"><i class="bi bi-body-text">&nbspRegények</i>
+                    <li><a class="dropdown-item" href="#regenyek"><i class="bi bi-body-text">&nbspRegények</i>
                     </a></li>
-                    <li><a class="dropdown-item" href="#"><i class="bi bi-blockquote-right">&nbspVerseskötetek</i>
+                    <li><a class="dropdown-item" href="#verseskotetek"><i class="bi bi-blockquote-right">&nbspVerseskötetek</i>
                     </a></li>
-                    <li><a class="dropdown-item" href="#"><i class="bi bi-translate">&nbspMűfordításai</i>
+                    <li><a class="dropdown-item" href="#muforditasai"><i class="bi bi-translate">&nbspMűfordításai</i>
                     </a></li>
                   </ul>
                 </li>
+                <div class="container float-start quote">
+                  <i class="bi bi-quote">        
+                    <p class="text-center p-font fw-bold align-middle">
+                    Mit tudom én, mi szeretnék lenni!
+                    Pehely vagyok, olvadok a hóval,
+                    mely elfoly mint könny, elszáll mint sóhaj.
+                  </p>
+                </i>
+                <i class="bi bi-vector-pen">Babits Mihály</i>
+                 </div>
             </div>
           </div>
         </div>
       </nav>
 
-      <div class="container bs-bug">
-        <h1 class="header-font text-center fw-bold">
-          Kezdőlap
-        </h1>
+      <div class="container-fluid bs-bug">
+        <div class="text-center">
+          <!-- <img src="images/babits-2.jpg" class="index-kep" alt=""> -->
+        </div>
+            <h1 class="header-font text-center fw-bold" id="kezdolap">Kezdőlap</h1>
       </div>
 
 
-       <div class="container-fluid float-start quote">
-        <i class="bi bi-quote">        
-          <p class="text-center p-font fw-bold align-middle">
-          Mit tudom én, mi szeretnék lenni!
-          Pehely vagyok, olvadok a hóval,
-          mely elfoly mint könny, elszáll mint sóhaj.
-        </p>
-      </i>
-      <i class="bi bi-vector-pen">Babits Mihály</i>
-       </div>
+
 
        <div class="container">
-        <h2 class="text-center"><span class="header-font">Élete</span></h2>
+        <h2 class="text-center" id="elete"><span class="header-font">Élete</span></h2>
     </div>
 
     <button class="d-hide back-to-top" onclick="topFunction()" id="myBtn" title="Go to top">
@@ -83,6 +85,17 @@
       </svg>
     </button>
 
+    <footer class="container-fluid">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code" viewBox="0 0 16 16">
+          <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"/>
+        </svg>
+        Kiss Martin
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+          <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+        </svg>
+      </p>
+    </footer>
 
     <script src="dist/js/bootstrap.min.js">
     </script>
