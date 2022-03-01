@@ -14,3 +14,7 @@ function topFunction() {
   document.body.scrollTop = 0; 
   document.documentElement.scrollTop = 0; 
 }
+
+var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: '#navbar-example3'
+})

@@ -1,104 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Babits Mihály</title>
-    <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Babits Mihály</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-dark container">
-   
-  <nav class="navbar navbar-light fixed-top" style="background-color: #fca311;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><span class="title-font fw-bold fs-1" style="color: #14213d;">Babits Mihály</span></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header" style="background-color: #14213d;">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><span class="p-font fw-bold fs-1" style="color: #fca311;">Menü</span></h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active p-font fw-bold fs-3" aria-current="page" href="#kezdolap">Kezdőlap</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link hover hover-2 p-font fw-bold fs-3" aria-current="page" href="#elete">Élete</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link  p-font fw-bold fs-3" aria-current="page" href="#kolteszete">Költészete</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link p-font fw-bold fs-3" href="#muvei" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Művei
-                    <i class="bi bi-arrow-down"></i>
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#regenyek"><i class="bi bi-body-text">&nbspRegények</i>
+
+<body class="hatter">
+
+  <div class="container bg-dark">
+  
+    <nav class="navbar navbar-light fixed-top" style="background-color: #fca311;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span class="title-font fw-bold fs-1" style="color: #14213d;">Babits
+            Mihály</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header" style="background-color: #14213d;">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><span class="navbar-font fw-bold fs-1"
+                style="color: #fca311;">Menü</span></h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active navbar-font fw-bold fs-3" aria-current="page" href="#kezdolap">Kezdőlap</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link navbar-font fw-bold fs-3" href="#muvei" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Élete
+                  <i class="bi bi-arrow-down"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#item-1">Születése</a></li>
+                  <li><a class="dropdown-item" href="#item-1">Elemi iskolái</a></li>
+                  <li><a class="dropdown-item" href="#item-2">Egyetemi évei</a></li>
+                  <li><a class="dropdown-item" href="#item-3">Korai művei
+                  </a></li>
+                  <li><a class="dropdown-item" href="#item-4">Társaságai</a></li>
+                  <li><a class="dropdown-item" href="#item-5">Viszonyai</a></li>
+                  <li><a class="dropdown-item" href="#item-6">A Baumgarten-alapítvány</a></li>
+                  <li><a class="dropdown-item" href="#item-7">Gondolatai Janus Pannoniusról</a></li>
+                  <li><a class="dropdown-item" href="#item-8">Utolsó regénye
+                  </a></li>
+                </ul>
+              <li class="nav-item">
+                <a class="nav-link  navbar-font fw-bold fs-3" aria-current="page" href="#kolteszete">Költészete</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link navbar-font fw-bold fs-3" href="#muvei" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Művei
+                  <i class="bi bi-arrow-down"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#regenyek"><i class="bi bi-body-text">&nbspRegények</i>
                     </a></li>
-                    <li><a class="dropdown-item" href="#verseskotetek"><i class="bi bi-blockquote-right">&nbspVerseskötetek</i>
+                  <li><a class="dropdown-item" href="#verseskotetek"><i
+                        class="bi bi-blockquote-right">&nbspVerseskötetek</i>
                     </a></li>
-                    <li><a class="dropdown-item" href="#muforditasai"><i class="bi bi-translate">&nbspMűfordításai</i>
+                  <li><a class="dropdown-item" href="#muforditasai"><i class="bi bi-translate">&nbspMűfordításai</i>
                     </a></li>
-                  </ul>
-                </li>
-                <div class="container float-start quote">
-                  <i class="bi bi-quote">        
-                    <p class="text-center p-font fw-bold align-middle">
+                </ul>
+              </li>
+              <div class="container float-start quote">
+                <i class="bi bi-quote">
+                  <p class="text-center navbar-font fw-bold align-middle">
                     Mit tudom én, mi szeretnék lenni!
                     Pehely vagyok, olvadok a hóval,
                     mely elfoly mint könny, elszáll mint sóhaj.
                   </p>
                 </i>
                 <i class="bi bi-vector-pen">Babits Mihály</i>
-                 </div>
-            </div>
+              </div>
           </div>
         </div>
-      </nav>
-
-      <div class="container-fluid bs-bug">
-        <div class="text-center">
-          <!-- <img src="images/babits-2.jpg" class="index-kep" alt=""> -->
-        </div>
-            <h1 class="header-font text-center fw-bold" id="kezdolap">Kezdőlap</h1>
       </div>
-
-
-
-
-       <div class="container">
-        <h2 class="text-center" id="elete"><span class="header-font">Élete</span></h2>
+    </nav>
+  
+    <div class="container-fluid mb-4 bs-bug">
+      <div class="text-center">
+      </div>
+      <h1 class="header-font text-center fw-bold" id="kezdolap">Kezdőlap</h1>
     </div>
-
+  
+  
+    <div class="container mb-4">
+      <h2 class="text-center" id="elete"><span class="header-font">Élete</span></h2>
+  </div>
+  
+      <div class="container" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
+        <h4 class="header-font" id="item-1">Születése</h4>
+        <p class="p-font">Édesapja, id. Babits Mihály törvényszéki bíró volt (később a budapesti ítélőtáblához nevezték
+          ki, majd a királyi tábla decentralizációja következtében, 1891-ben Pécsre helyezték), édesanyja Kelemen Auróra
+          (művelt, versszerető – betéve tudta Puskin Anyeginjét, a Toldi szerelmét, A délibábok hősét). Rokonságban
+          állt Buday Dezső jogásszal.  Anyai ágon Szigligeti Ede távoli unokatestvére, mivel az ő édesanyja is egy
+          szerepi Kelemen lány volt.</p>
+          <h4 class="header-font" id="item-1">Elemi iskolái</h4>
+          <img src="img/babits-3.jpg" class="float-end rounded img" alt="">
+        <p class="p-font">Az elemi iskolát Pesten kezdte, de nyolcévesen, 1891-ben szüleivel Pécsre költözött.  A Váradi
+          Antal és a Zrínyi Miklós utca sarkán álló kis földszintes, egyablakos házrészben laktak, amely korábban
+          valószínűleg cselédszoba lehetett; a házban Babits anyai nagybátyja, az agglegény Kelemen Mihály honvéd
+          főtörzs­orvos élt egyedül. A leendő költő a pécsi belvárosi iskola harmadik és negyedik elemi osztályába
+          járt, közben Decleva Karolina és férje házában volt kosztos diák. 1893 szeptemberétől járt a
+          ciszterciek gimnáziumának[* 2] nyolc osztályába.  Ötödikes gimnazista volt, amikor édesapja meghalt,  ekkor
+          édesanyja két gyermekével visszaköltözött anyai nagyapjához, Kelemen József szekszárdi házába, ahol a nagyanya
+          (született Rácz Innocentia, Cenci néni a Halálfiaiból) fogta össze a családot. Ekkor Babitsot Mihály nagybátyja
+          fogadta magához mint kosztos diákot, így fejezhette be a ciszterci gimnáziumot, 1901-ben érettségizett. </p>
+        <h4 class="header-font" id="item-2">Egyetemi évei</h4>
+        <p class="p-font">Érettségi után a budapesti Pázmány Péter Tudományegyetem Bölcsészettudományi Karán
+          magyar–francia (az utóbbi helyett később latin) szakos hallgató lett. Négyesy László híres stílusgyakorlat-óráin
+          ismerkedett meg Juhász Gyulával és Kosztolányi Dezsővel. Latin–magyar szakon szerzett diplomát. A
+          századfordulótól írt verseket, de ezeket nem publikálta. Baján, Szekszárdon, Újpesten, Pesten, Szegeden
+          (1906–1908) dolgozott gimnáziumi tanárként. Ezután Fogarason, majd 1911–1916 között az újpesti Könyves Kálmán
+          Gimnázium, a budapesti tisztviselőtelepi,[* 3] végül a Munkácsy Mihály utcai gimnáziumban tanított. Első művei a
+          Nagyváradon kiadott A Holnap című antológiában jelentek meg (1908).
+        </p>
+        <h4 class="header-font" id="item-3">Korai művei</h4>
+        <p class="p-font">1909-ben jelent meg első kötete Levelek Iris koszorújából címmel. 1911 folyamán adta ki második
+          kötetét (Herceg, hátha megjön a tél is). Ekkor még főállásban tanított az újpesti Könyves Kálmán Gimnáziumban.
+          1913-ban írta meg első regényét A gólyakalifa címmel (csak 1916-ban jelent meg). Ebben az évben kezdte el
+          lefordítani Dante Isteni színjátékát antik olasz eredetiből (1913-ban jelent meg a Pokol, 1920-ban a
+          Purgatórium, 1923-ban a Paradicsom). Fordításáért az olasz állam kitüntette, megkapta a San Remo-díjat (1940-ben
+          utazott ki érte, Sanremóba). Játszottam a kezével című, 1915-ös szerelmes verse megjelenésekor (az első
+          világháború második évében) hazafiatlansággal vádolták, s elvesztette tanári állását. Harmadik verseskötete, a
+          Recitativ 1916-ban jelent meg.
+        </p>
+        <h4 class="header-font" id="item-4">Társaságai</h4>
+        <p class="p-font">1918-as megalakulásakor a Vörösmarty Akadémia alelnöke, 1925-ben elnöke. 1930-ban a Kisfaludy
+          Társaság rendes tagja. 1920 februárjától kizárásáig rendes tagja volt a Petőfi Társaságnak. A Nyugat
+          főmunkatársa, majd 1919-ben egyetemi tanár, de csak a tanácsköztársaság bukásáig.
+        </p>
+        <h4 class="header-font" id="item-5">Viszonyai</h4>
+        <p class="p-font">1919–20-ban rövid ideig Ady özvegyével, Boncza Bertával, Csinszkával tartott fenn szerelmi
+          viszonyt. Ezt követően a vele egy lakásban élő titkára, Szabó Lőrinc menyasszonyát, Tanner Ilonát (írói álnevén
+          Török Sophie) kérte feleségül. 1921. január 15-én Budapesten, a Józsefvárosban házasodtak össze.[* 4] 1928-ban
+          titokban örökbe fogadják felesége testvérének gyermekét, Babits Ildikót, akit haláláig a sajátjaként nevel. 
+          Ezt megelőzően, még 1924-ben az esztergomi Előhegyen vettek nyaralót, ahol a költő haláláig sokat időztek,
+          Babits számos műve itt született, aki ettől kezdve a város kulturális életének meghatározó alakja lett. Alapító
+          tagja volt a városban máig működő Balassa Társaságnak. Esztergomi házában több híres írót, költőt, művészt
+          fogadott, akik mind aláírták az úgynevezett autogramfalat. A nyaraló ma Babits Mihály Emlékházként működik.
+        </p>
+        <h4 class="header-font" id="item-6">A Baumgarten-alapítvány</h4>
+        <p class="p-font">1927-től a Baumgarten-alapítvány kurátoraként dolgozott, így a magyar irodalmi életben nagy
+          befolyásra tett szert. Sokan kritikaként róják fel Babitsnak, hogy elsősorban az ő befolyása miatt nem részesült
+          József Attila sosem a Baumgarten-díjban.  Munkatársa volt a Benedek Marcell főszerkesztésében, 1927-ben
+          megjelent Irodalmi Lexikonnak is.
+        </p>
+              <h4 class="header-font" id="item-7">Gondolatai Janus Pannoniusról</h4>
+        <p class="p-font">1931-ben a Janus Pannonius Irodalmi Társaság pécsi alakuló közgyűlésén a Kisfaludy Társaság nevében beszélve így fogalmazott Janus Pannoniusról: 
+        </p>
+        <div class="card mb-4" id="item-8">
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <i class="bi bi-quote">
+              <p class="fw-bold">Nem tudnék nevet, mely jobban kifejezné az övénél azt, amire ma is szükségünk van: hív és büszke megállásra a régi szent európai kultúra kincses szigetein, minden vad és nyers és új erők között és ellenükre: mert ez a renaissance.</p>
+              </i>
+            </blockquote>
+          </div>
+        </div>
+        <h4 class="header-font" id="item-9">Utolsó regénye</h4>
+        <p class="p-font mb-5">1933-ban írta utolsó regényét, az Elza pilóta vagy a tökéletes társadalom című antiutópiát egy állandó háborúban élő, kilátástalan világról. Az események egy meghatározatlan társadalomban játszódnak, ahol a háborúban a férfiak zöme már meghalt, így a nők is katonai szolgálatot teljesítenek. Elza pilótaként fogságba esik, így saját szülővárosát kell bombáznia. 1929-től lett főszerkesztője a Nyugatnak, a kor legmeghatározóbb magyar irodalmi folyóiratának. Lírájára amúgy is jellemző pesszimizmusát tovább fokozta a diagnózis, hogy gégerákban szenved. 1938-ban gégeműtéten esett át, ami után képtelen volt beszélni, ezért beszélgetőfüzetén keresztül érintkezett másokkal. Abban az évben jelent meg a Jónás könyve. 1941. augusztus 4-én a hegyvidéki Siesta Szanatóriumban halt meg. 
+        </p>
+      </div>
+    </div>
+  
     <button class="d-hide back-to-top" onclick="topFunction()" id="myBtn" title="Go to top">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-        <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill"
+        viewBox="0 0 16 16">
+        <path
+          d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z" />
       </svg>
     </button>
-
+  
     <footer class="container-fluid">
       <p>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code" viewBox="0 0 16 16">
-          <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"/>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code"
+          viewBox="0 0 16 16">
+          <path
+            d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z" />
         </svg>
         Kiss Martin
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
-          <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash"
+          viewBox="0 0 16 16">
+          <path
+            d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
         </svg>
       </p>
     </footer>
 
-    <script src="dist/js/bootstrap.min.js">
-    </script>
-    <script src="script.js"></script>
+  </div>
+
+  <script src="dist/js/bootstrap.min.js">
+  </script>
+  <script src="script.js"></script>
 </body>
+
 </html>
