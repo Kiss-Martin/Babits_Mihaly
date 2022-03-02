@@ -24,6 +24,11 @@
     border-radius: 0.25rem;
     padding: 0.3rem;
 }
+.alt-header{
+    text-align: left;
+    color: #fca311;
+    text-decoration: underline #fca311 6px;
+}
 .quote{
     position: absolute;
     bottom: 0;
@@ -128,11 +133,15 @@ footer{
 li{
     border-radius: 0.25rem;
 }
-li:hover{
+.dropdown li:hover{
     background-color: #fca311;
     color: #14213d;
 }
 .dropdown-item.active, .dropdown-item:active{
     color: #14213d;
     background-color: #fca311;
+}
+.fels{
+    font-family: 'Signika Negative', sans-serif;
+    color: #fca311;
 }
